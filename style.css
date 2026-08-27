@@ -1,13 +1,19 @@
 /* style.css - COMPLETO E CORRIGIDO */
 
+/* ===== RESET PARA CELULAR ===== */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
 }
 
 html {
   scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 body {
@@ -16,6 +22,18 @@ body {
   font-family: 'Montserrat', sans-serif;
   line-height: 1.6;
   padding-top: 70px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a, button {
+  -webkit-tap-highlight-color: transparent;
 }
 
 .container {
@@ -540,6 +558,7 @@ section {
   line-height: 1;
   opacity: 0.5;
   font-weight: 300;
+  color: #F4E9DC;
 }
 
 .contato-item-rotulo {
@@ -842,16 +861,8 @@ section {
     font-size: 2rem;
   }
 
-  .sobre-texto h2 br {
-    display: none;
-  }
-
   .section-titulo {
     font-size: 1.8rem;
-  }
-
-  .section-titulo br {
-    display: none;
   }
 
   .atuacao-grid {
