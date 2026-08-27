@@ -487,6 +487,19 @@ section {
 /* ===== E-MAIL - MESMA COR DO RESTO ===== */
 .contato-email-link {
   text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: rgba(244, 233, 220, 0.04);
+  padding: 0.8rem 1.5rem;
+  border-radius: 16px;
+  border: 1px solid rgba(244, 233, 220, 0.06);
+  transition: background 0.2s;
+}
+
+.contato-email-link:hover {
+  background: rgba(244, 233, 220, 0.08);
 }
 
 .contato-email-icon {
